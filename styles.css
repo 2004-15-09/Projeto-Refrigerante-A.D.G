@@ -40,7 +40,7 @@
 }
 
 .item .refrigerante {
-    width: 600px;
+    width: 650px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,6 +62,13 @@
     font-family: monospace;
     cursor: pointer;
     z-index: 4;
+}
+
+#ant:hover, #seg:hover {
+    background-color: #544f4f;
+    color: #000;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(246, 230, 230, 0.6);
 }
 
 #ant {
